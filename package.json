@@ -1,0 +1,23 @@
+{
+  "name": "optimize-images",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Optimize images script",
+  "main": "optimize.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vladimir Suragin <v.suragin@yclients.tech>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "4.1.2",
+    "commander": "8.2.0",
+    "globby": "12.0.2",
+    "imagemin": "8.0.1",
+    "imagemin-mozjpeg": "9.0.0",
+    "imagemin-pngquant": "9.0.2",
+    "imagemin-webp": "6.0.0",
+    "imghash": "0.0.9"
+  }
+}
